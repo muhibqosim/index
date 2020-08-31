@@ -1,0 +1,126 @@
+*{ margin: 0 ;
+   padding: 0;
+  }
+  
+ :root{ margin: 1vw 1vh;
+       font-family: 'Consolas';
+     }
+ h1{ 
+   font-size: 0.7rem;
+   background-color: lightblue ;
+   color: #420200;
+   text-decoration-style: ;: oblique;
+ }
+header{
+       background-color: #ddd;
+      }
+header>a{
+         font-style: none;
+         font-size: 1.5rem;
+         color: var(--bl);
+         text-decoration: none;
+         margin-top: 5px;
+        }
+header nav a{
+      text-decoration: none;
+      font-size: 1.7rem;
+      color: var(--bl);
+      cursor: pointer;
+      border: 0px solid var(--bl);
+      margin: auto;
+      }
+ .caption{
+   border-top: 1px solid black;
+   /*border-bottom: 1px solid black;*/
+ }
+.top-sell{
+   background-color: lightblue;
+ }
+.grid {
+       background-color: ;
+       color: ;
+      }
+.card {max-width: 100%;
+       border: 0px solid var(--sil);
+       background-color: var(--wh)
+      }
+.card-img{border-top-left-radius: 0.5rem;
+          border-top-right-radius: 0.5rem;
+         width: 100%;     
+          border: 0px solid var(--gr);
+        }
+.card-link { text-decoration: none;
+           /*  font-size: 0.9rem;*/
+          }
+  /*.btn{ background-color: var(--bl);*/
+  /*          color: var(--wh);*/
+  /*          border: 2px solid var(--wh);*/
+  /*          cursor: pointer;*/
+  /*          margin: auto;*/
+            
+  /*          }*/
+  /*.btn:hover {background-color: var(--red);*/
+  /*          color: var(--il);*/
+  /*          border;*/
+  /*          box-shadow: 4px 4px 2px var(--bk);*/
+  /*          transition: 03s ease-in;*/
+         
+  /*            }*/
+  /*.btn-wh {background-color: var(--wh);*/
+  /*          color: var(--bl);*/
+  /*          border: 2px solid var(--bl)*/
+  /*              }*/
+.card-body{ 
+           border: 0px solid var(--bl);
+           }
+.card-title p{
+              font-size: 0.9rem;
+             }
+.card-text p { font-size: 1rem;
+             
+             }
+ hr{ color: var(--re);
+           width: 100%;
+           height: 5px;
+ }
+ h2{ 
+    color: red;
+    width: 50%;
+    text-align: center;
+    text: " "
+ }
+ footer{
+   background-color: lightblue;
+ }
+.copy{
+  background-color: #ddd;
+}
+
+nav button{ 
+      background-color: var(--glred);
+      cursor: pointer;
+      border: 0px solid var(--wh);
+      margin: 0px;
+      width: 50%;
+      }
+nav button:nth-child(1){
+    border-bottom-left-radius: 0.5rem;
+    background-color: var(--ye);
+  }
+nav button:nth-child(2){
+    border-bottom-right-radius: 0.5rem;
+    background-color: var(--re);
+  }
+  
+nav button a {
+            text-decoration: none;
+            font-size: 0.9rem;
+            color: var(--bk);
+            padding: 1px;
+           }
+nav button:hover {background-color: var(--melseed);
+            color: var(--wh);
+            border: ;
+            box-shadow: 4px 4px 2px var(--bk);
+            transition: ;
+              }
